@@ -8,12 +8,25 @@
 #     print('Ответ не верный')
 #     print('Верный ответ ' , summ)
          
-print("Добро пожаловать в игру «Угадай число»!")
-print("Настя загадывает число. Дима, не подглядывай!")
-nastya_number = int(input("Введите число: "))
-dima_number = int(input("Введите число: "))
+# print("Добро пожаловать в игру «Угадай число»!")
+# print("Настя загадывает число. Дима, не подглядывай!")
+# nastya_number = int(input("Введите число: "))
+# dima_number = int(input("Введите число: "))
 
-if nastya_number == dima_number:
-    print("Ура! Угадал!")
+# if nastya_number == dima_number:
+#     print("Ура! Угадал!")
+# else:
+#     print("Нет, это не то, что я загадала.")    
+
+a = 1 
+b = 71 
+c = 91
+max = 0
+if a > b:
+    max = a
 else:
-    print("Нет, это не то, что я загадала.")    
+    max = b    
+if c > max:
+    max = c
+
+print('Наиболшее число', max)             
